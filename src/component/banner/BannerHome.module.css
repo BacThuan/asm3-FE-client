@@ -1,0 +1,36 @@
+.img {
+  width: 75%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.title {
+  position: absolute;
+  left: 23%;
+  top: 20%;
+  font-size: 13px;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.386);
+}
+
+.des {
+  position: absolute;
+  left: 23%;
+  top: 25%;
+  font-size: 25px;
+  font-style: italic;
+  width: 300px;
+}
+
+.btn {
+  position: absolute;
+  left: 23%;
+  top: 40%;
+  background-color: rgba(0, 0, 0, 0.825);
+  color: white;
+  font-style: italic;
+  border: none;
+  padding: 5px 10px;
+}

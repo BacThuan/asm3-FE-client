@@ -1,0 +1,48 @@
+.container {
+  width: 73%;
+  position: relative;
+}
+.list {
+  padding: 0 0;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  padding-bottom: 40px;
+}
+.list li {
+  flex-basis: 31%;
+  text-align: center;
+}
+
+.search {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.input {
+  height: 35px;
+  padding-left: 10px;
+  width: 250px;
+}
+.list li {
+  animation: scaleAnim 1s forwards;
+}
+@keyframes scaleAnim {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.page {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: black;
+}

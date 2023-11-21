@@ -1,0 +1,16 @@
+.container {
+  font-style: italic;
+  display: flex;
+  gap: 20px;
+  margin: auto;
+}
+
+.list {
+  width: 100%;
+}
+
+.container th {
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}

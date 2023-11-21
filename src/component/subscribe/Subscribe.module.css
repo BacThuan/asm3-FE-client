@@ -1,0 +1,42 @@
+.container {
+  margin: auto;
+  width: 75%;
+  font-style: italic;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  background-color: #f8f9fa;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+.title1 {
+  margin-bottom: 0px;
+  color: rgba(0, 0, 0);
+  font-size: 20px;
+}
+
+.title2 {
+  color: rgba(0, 0, 0, 0.319);
+  font-size: 13px;
+}
+.input {
+  height: 50px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.btn {
+  height: 50px;
+  width: 100px;
+  background-color: #3c3c3c;
+  color: white;
+}

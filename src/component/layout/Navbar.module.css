@@ -1,0 +1,73 @@
+.container {
+  margin-top: 20px;
+}
+
+.container button {
+  background-color: white;
+  border: none;
+  font-style: italic;
+  display: flex;
+  gap: 5px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  width: 75% !important;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  padding: 0;
+}
+
+.container a {
+  text-decoration: none;
+  font-style: italic;
+  height: 30px;
+  color: black;
+}
+.container .title {
+  position: absolute;
+  font-style: italic;
+  font-size: 20px;
+  left: 44%;
+}
+
+.active {
+  color: rgb(255, 174, 0) !important;
+  fill: rgb(255, 174, 0);
+  display: flex;
+  gap: 5px;
+}
+.icon_container:hover p,
+.icon_container:hover svg {
+  color: rgb(255, 174, 0) !important;
+  fill: rgb(255, 174, 0);
+}
+
+.left {
+  display: flex;
+  gap: 10px;
+}
+
+.right {
+  display: flex;
+  gap: 15px;
+}
+.icon_container a {
+  display: flex;
+  gap: 3px;
+}
+
+.icon_container {
+  display: flex;
+  gap: 3px;
+}
+.icon {
+  color: rgba(0, 0, 0, 0.499);
+}
+
+.login {
+  display: flex;
+  gap: 5px;
+}

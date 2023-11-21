@@ -1,0 +1,129 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.img {
+  display: flex;
+  width: 40%;
+}
+
+.primary {
+  height: 100%;
+  width: 100%;
+}
+
+.normal img {
+  height: 100px;
+  width: 100px;
+  display: inline;
+}
+.intro {
+  display: flex;
+  justify-content: space-around;
+}
+
+.infor {
+  width: 40%;
+  margin-left: 40px;
+  font-style: italic;
+}
+
+.name {
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.price {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.682);
+  margin-bottom: 20px;
+}
+.des {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.682);
+  margin-bottom: 20px;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.handle {
+  border: none;
+  background-color: white;
+}
+.input {
+  padding-left: 5px;
+  width: 20px;
+  border: none;
+}
+
+.form {
+  border-style: solid;
+  border-width: 1px thin;
+  border-color: rgba(0, 0, 0, 0.368);
+  width: 319px;
+}
+
+.form span {
+  margin-right: 40px;
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.368);
+}
+
+.submit {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.674);
+  border: none;
+  font-style: italic;
+  font-size: 15px;
+  padding: 0 20px;
+  margin: 0 0;
+  height: 32px;
+  margin-left: 10px;
+}
+.description {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+.title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.674);
+  width: fit-content;
+  height: 45px;
+  padding: 10px 20px 10px 20px;
+}
+
+.title1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.title2 {
+  color: rgba(0, 0, 0, 0.682);
+  font-weight: 500;
+}
+
+.description li {
+  color: rgba(0, 0, 0, 0.682);
+  font-weight: 400;
+}
+
+.related ul {
+  padding: 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+}
+
+.related ul li {
+  width: 230px;
+  text-align: center;
+}

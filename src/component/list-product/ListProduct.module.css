@@ -1,0 +1,48 @@
+.movies {
+  margin: auto;
+  width: 75%;
+  font-style: italic;
+}
+.list {
+  padding: 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+}
+.list li {
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.list li img {
+  height: 200px;
+  width: 100%;
+}
+.list li img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.title1 {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.396);
+  margin-bottom: 4px;
+}
+.title2 {
+  font-size: 20px;
+}
+
+.name {
+  margin: 0 0;
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.price {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.396);
+  margin-bottom: 10px;
+}
